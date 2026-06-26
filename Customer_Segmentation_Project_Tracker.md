@@ -16,9 +16,7 @@
 | **Dataset** | [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) |
 | **Core Pillars** | Churn Prediction · CLV Estimation · Behavior Analysis · Customer Segmentation |
 | **Target Audience** | Recruiters in Data Science / ML / Analytics roles |
-| **Status** | 🟢 Phase 6 Complete — Ready for Deployment |
-| **Started On** | ___ / ___ / ______ |
-| **Target Completion** | ___ / ___ / ______ |
+| **Status** | 🟢 Phase 7 : Deployment Completed |
 
 ---
 
@@ -242,27 +240,11 @@ CLV = MonthlyCharges × Expected_Tenure × (1 − Churn_Probability)
 | 6.1 | Write executive summary in README.md (non-technical language) | `[x]` | Problem → Approach → Findings → 5 Recommendations |
 | 6.2 | Create insights summary notebook (`06_Insights_Summary.ipynb`) | `[x]` | 21-cell narrative notebook with embedded figures |
 | 6.3 | List 3–5 business recommendations with supporting data | `[x]` | 5 recommendations with SHAP evidence + CLV impact |
-| 6.4 | Quantify every resume bullet point (see template below) | `[x]` | All 4 bullets filled with actual metrics |
-| 6.5 | Export all key figures to `reports/figures/` | `[x]` | 30 PNG figures already exported at 300 DPI |
-| 6.6 | Push final code to GitHub with clean commit history | `[ ]` | Manual step remaining |
-| 6.7 | Add project to LinkedIn / portfolio with live link | `[ ]` | Manual step remaining |
+| 6.4 | Export all key figures to `reports/figures/` | `[x]` | 30 PNG figures already exported at 300 DPI |
+| 6.5 | Push final code to GitHub with clean commit history | `[x]` | Pushed |
+| 6.6 | Add project to LinkedIn / portfolio with live link | `[x]` | Added |
 
-**Resume Bullets (quantified with actual results):**
 
-```
-• Built end-to-end churn prediction pipeline using Random Forest, achieving AUC-ROC of 0.84
-  and F1-score of 0.63; applied SHAP explainability to surface top 5 churn drivers.
-
-• Segmented 7,043 customers into 3 behavioral clusters using K-Means (silhouette = 0.42);
-  identified at-risk segment representing 53% of customers but 84.2% of predicted churn.
-
-• Estimated Customer Lifetime Value (CLV) by combining Kaplan-Meier survival analysis
-  with churn probability scores; highest-CLV cluster showed 5.2× revenue potential
-  vs. lowest.
-
-• Improved churner recall from 69.8% (Logistic Regression baseline) to 81.6% through
-  threshold tuning and class imbalance handling (SMOTE) — a 16.9% improvement.
-```
 
 ---
 
@@ -274,7 +256,7 @@ CLV = MonthlyCharges × Expected_Tenure × (1 − Churn_Probability)
 |---|---|---|---|
 | 7.1 | Build "Churn Risk Calculator" page: input customer attributes → output churn probability | `[x]` | Full preprocessing pipeline + gauge chart + recommendations |
 | 7.2 | Build "Segment Explorer" page: show cluster profiles and CLV distribution | `[x]` | 4 tabs: Profiles, CLV, Churn Analysis, Radar |
-| 7.3 | Deploy to Streamlit Community Cloud (free) | `[ ]` | Get a shareable URL for resume |
+| 7.3 | Deploy to Streamlit Community Cloud (free) | `[x]` | Get a shareable URL  |
 
 #### Tier 2 — Plotly Dash Dashboard *(1–2 days)*
 
@@ -314,9 +296,9 @@ CLV = MonthlyCharges × Expected_Tenure × (1 − Churn_Probability)
 - [x] `src/` contains reusable, clean Python functions
 - [x] README.md tells the full story without opening a notebook
 - [x] All charts saved in `reports/figures/` (30 figures)
-- [ ] At least one live deployment link exists
+- [x] At least one live deployment link exists
 - [x] Resume bullets are quantified with actual model metrics
-- [ ] GitHub repo has a clear description, tags (`data-science`, `machine-learning`, `churn-prediction`), and pinned to profile
+- [x] GitHub repo has a clear description, tags (`data-science`, `machine-learning`, `churn-prediction`), and pinned to profile
 
 ---
 
