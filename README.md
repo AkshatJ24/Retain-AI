@@ -2,6 +2,8 @@
 
 > **End-to-end data science project:** From raw telco data to actionable churn-reduction strategy — built with interpretable ML, customer segmentation, and lifetime value estimation.
 
+Access here : https://telco-data-customer-analysis.streamlit.app/
+
 ---
 
 ## 🧩 The Problem
@@ -163,7 +165,7 @@ The **Random Forest classifier** — selected as the best-performing model — a
 
 ---
 
-## 🏆 Key Analysis
+## 🏆 Key Points
 
 ```
 • Built end-to-end churn prediction pipeline using Random Forest, achieving AUC-ROC of 0.84
