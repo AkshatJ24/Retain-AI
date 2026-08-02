@@ -1,4 +1,4 @@
-# 📊 Customer Segmentation & Retention Analysis
+# 📊 RetainAI: Customer Segmentation & Churn Prediction Platform
 
 > **End-to-end data science project:** From raw telco data to actionable churn-reduction strategy — built with interpretable ML, customer segmentation, and lifetime value estimation.
 

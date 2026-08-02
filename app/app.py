@@ -44,8 +44,7 @@ SCALE_RANGES = {
 
 
 st.set_page_config(
-    page_title="Telco Retention Command Center",
-    page_icon="chart_with_upwards_trend",
+    page_title="RetainAI | Telco Churn Analytics",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -290,7 +289,7 @@ def sidebar() -> str:
         st.markdown(
             """
 <div class="sidebar-brand">
-    <div class="name">Telco Retention Command Center</div>
+    <div class="name">RetainAI</div>
     <div class="meta">Random Forest churn scoring, behavioral segmentation, and CLV intelligence.</div>
 </div>
 """,
@@ -318,7 +317,7 @@ def render_churn_studio() -> None:
     """Render the churn prediction page."""
     hero(
         "Churn Risk Studio",
-        "Live retention scoring",
+        "RetainAI  //  LIVE RETENTION SCORING",
         "Score individual customer profiles with the same preprocessing, clustering, and Random Forest workflow used in the project.",
         "Threshold tuned for recall",
     )
@@ -501,7 +500,7 @@ def render_segment_command_center() -> None:
     """Render the segment explorer page."""
     hero(
         "Segment Command Center",
-        "Portfolio intelligence",
+        "RetainAI  //  PORTFOLIO INTELLIGENCE",
         "Explore customer segments, churn concentration, lifetime value distribution, and the behavioral shape of each cluster.",
         "7,043 customer portfolio",
     )
