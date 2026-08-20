@@ -2,7 +2,7 @@
 
 > **End-to-end data science project:** From raw telco data to actionable churn-reduction strategy — built with interpretable ML, customer segmentation, and lifetime value estimation.
 
-Access here : https://telco-data-customer-analysis.streamlit.app/
+Access here : [https://telco-data-customer-analysis.streamlit.app/](https://retainai-churn-prediction-platform-3glvq.streamlit.app/)
 
 ---
 
