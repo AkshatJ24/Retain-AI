@@ -75,15 +75,15 @@ The **Random Forest classifier** — selected as the best-performing model — a
 
 | Segment | Median CLV | Mean CLV |
 |---|---|---|
-| 🔴 At-Risk Churners | $3,330 | $3,282 |
-| 🟢 High-Value Loyalists | $599 | $682 |
-| 🟡 New Potentials | $542 | $636 |
+| 🟢 High-Value Loyalists | $3,330 | $3,282 |
+| 🟡 New Potentials | $599 | $682 |
+| 🔴 At-Risk Churners | $542 | $636 |
 
 - **Total portfolio CLV:** $9.98 million
 - **Pareto effect:** Top 20% of customers generate **54.2%** of total CLV
 - **CLV range:** $11 — $7,856 per customer
 
-> **Counterintuitive finding:** The "At-Risk" segment has the *highest* CLV because their high churn probability makes them valuable targets for retention — preventing even a fraction of this churn unlocks significant revenue.
+> **Key finding:** The **High-Value Loyalists** segment has the highest per-customer CLV — long tenure, many services, low churn — about **5.2×** the lowest segment. The **At-Risk Churners** have the *lowest* per-customer CLV, yet because they are the largest segment and account for **84.2% of all churn**, they remain the top retention priority by churn *volume* (see Recommendation 1).
 
 ---
 
@@ -92,7 +92,7 @@ The **Random Forest classifier** — selected as the best-performing model — a
 ### Recommendation 1: Priority Retention for At-Risk Churners
 **Target:** 3,730 customers (53% of base) generating 84.2% of all churn  
 **Action:** Offer contract upgrade incentives (month-to-month → annual), loyalty discounts, or bundled service packages  
-**Expected impact:** Even a 10% reduction in this segment's churn rate saves ~157 customers and preserves ~$515K in CLV
+**Expected impact (illustrative):** Even a 10% reduction in this segment's churn rate would retain ~157 customers — roughly ~$100K in combined CLV at this segment's ~$636 average per customer
 
 ### Recommendation 2: Contract Lock-In Strategy
 **Insight:** Contract type is the single strongest churn predictor (SHAP = 0.048)  
